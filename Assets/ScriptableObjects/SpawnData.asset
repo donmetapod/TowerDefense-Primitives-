@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eedfd4e5b46638c4cb00de3a3af2e95e, type: 3}
+  m_Name: SpawnData
+  m_EditorClassIdentifier: 
+  Waves:
+  - WeakEnemies: 3
+    MidEnemies: 0
+    HeavyEnemies: 0
+  - WeakEnemies: 3
+    MidEnemies: 2
+    HeavyEnemies: 0
+  - WeakEnemies: 2
+    MidEnemies: 3
+    HeavyEnemies: 1
+  - WeakEnemies: 2
+    MidEnemies: 3
+    HeavyEnemies: 2
+  - WeakEnemies: 5
+    MidEnemies: 3
+    HeavyEnemies: 2
+  WeakEnemyPrefab: {fileID: 8268411740338763300, guid: ef4f71ea658961e4fa21aab45f0312bd,
+    type: 3}
+  MidEnemyPrefab: {fileID: 1282188191431967153, guid: c4783aa644eb344458f6b0e40ddbe371,
+    type: 3}
+  HeavyEnemyPrefab: {fileID: 1632276364160442992, guid: 8b66a0162204c14419af1461ccaa4981,
+    type: 3}
+  MinimumSpawnDelay: 1
+  MaximumSpawnDelay: 3
+  WaitTimeBetweenWaves: 5
